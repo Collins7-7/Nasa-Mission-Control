@@ -6,12 +6,15 @@
   "scripts": {
     "watch": "nodemon src/server.js",
     "start": "node src/server.js",
-    "test": "jest",
+    "test": "jest ",
     "test-watch": "jest --watch",
     "cluster": "pm2 start src/server.js -i max"
   },
   "keywords": [],
   "author": "",
+  "jest":{
+        "testEnvironment": "node"
+  },
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
